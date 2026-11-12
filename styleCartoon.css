@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(16, 20, 21);
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+
+
+h3 {
+    padding: 2.5em;
+}
+img{
+    object-fit: contain;
+    float: left;
+    width: 95%;
+    
+    height: auto;
+    margin-top: 50px ;
+    
+    margin-left: 2%;
+    padding-left: 0;
+
+    border-radius: 1em;
+    
+}
+#viewerWrapper{
+scroll-snap-type: mandatory;
+
+width: 100vw;
+height: 100dvh;
+float: left;
+margin: 0;
+padding: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.box {
+    border-radius: .5em;
+    border-style: solid;
+    border-width: .1em;
+    color: rgb(0, 0, 0);
+    border-color: rgba(151, 107, 188, 0.352);
+    text-align: center;
+    padding: 0;
+    width: 16em;
+    height: 10em;
+    background-color: rgb(7, 20, 23);
+    float: left;
+    margin-right:  .2em;
+    margin-left:   .2em;
+    margin-bottom: .2em;
+    margin-top:    .13em;
+}
+#box1{
+    background-color: rgb(139, 124, 225);
+    background: linear-gradient(90deg, rgb(202, 204, 210) 0%,  rgb(157, 168, 186) 110%);
+}
+#box2{
+    background-color: rgb(213, 119, 152);
+}
+.boxrow{
+    height: fit-content;
+    justify-self: center;
+    vertical-align: middle;
+    width: fit-content;
+}
+#boxWrapper{
+    
+    top: 9em;
+    justify-self: center;
+    padding: 5em;
+    min-height: 80em;
+    min-width: 50em;
+    
+    position: relative;
+    
+}
+#testwrapper{
+    box-shadow: -5px -5px 15px rgba(64, 77, 75, 0.522);
+    background-color: rgb(7, 14, 21);
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(26, 28, 46);
+    
+    padding-top: 1em;
+    padding-bottom: .9em;
+    min-height: 11.4em;
+    width: 35em;
+    border-radius: 1em;
+    border-width: 2px;
+}
