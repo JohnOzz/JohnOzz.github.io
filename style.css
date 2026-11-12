@@ -3,4 +3,8 @@
     height: 100vh;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
